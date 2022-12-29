@@ -67,14 +67,14 @@ class PublicUserApiTests(TestCase):
         ).exists()
         self.assertFalse(user_exists)
 
-    def test_create_token_for_user(slef):
+    def test_create_token_for_user(self):
         """Test generates token for valid credentials"""
         user_datails = {
             'name': 'Test Name',
             'email': 'test@example.com',
             'password': 'test-user-password123'
         }
-        create_user(user_datails)
+        create_user(**user_datails)
 
         payload = {
             'email': user_datails['email'],
