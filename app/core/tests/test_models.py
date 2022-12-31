@@ -64,4 +64,4 @@ class ModelTest(TestCase):
             description='Sample recipe description',
         )
 
-        self.assertEquual(str(recipe), recipe.title)
+        self.assertEqual(str(recipe), recipe.title)
