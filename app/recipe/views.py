@@ -3,7 +3,7 @@ views for the recipe APIs.
 """
 from rest_framework import (
     viewsets,
-    mixins
+    mixins,
 )
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
