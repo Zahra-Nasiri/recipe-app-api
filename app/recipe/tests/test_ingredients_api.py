@@ -81,4 +81,4 @@ class PrivateIngredientsApiTests(TestCase):
 
         self.assertEqual(res.status_code, status.HTTP_200_OK)
         ingredient.refresh_from_db()
-        self.assertEqual(ingredient.name, payload.name)
+        self.assertEqual(ingredient.name, payload['name'])
