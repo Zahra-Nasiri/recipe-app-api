@@ -69,7 +69,7 @@ The following API endpoints are available in this project:
 
 ## Authors
 
-- [Zahra-Nasiri](https://github.com/Zahra-Nasiri)
+- [Zahra Nasirmohammadi](https://github.com/Zahra-Nasiri)
 
 
 ## 🚀 About Me
