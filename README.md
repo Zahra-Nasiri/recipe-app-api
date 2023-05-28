@@ -45,11 +45,11 @@ Build the Docker image:
 ```
 Start the Docker container:
 ```bash
-  docker-compose up
+  docker compose up
 ```
 Run the tests inside the Docker container:
 ```bash
-  docker-compose run app sh -c "python manage.py test && flake8"
+  docker compose run app sh -c "python manage.py test && flake8"
 ```
 That's it! You can now browse the API endpoints locally at http://localhost:8000/api/.
 
@@ -70,6 +70,7 @@ The following API endpoints are available in this project:
 ## Authors
 
 - [Zahra Nasirmohammadi](https://github.com/Zahra-Nasiri)
+- [Arman Taherighaletaki](https://github.com/ArmanTaheriGhaleTaki)
 
 
 ## 🚀 About Me
